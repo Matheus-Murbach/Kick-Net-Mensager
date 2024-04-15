@@ -1,8 +1,8 @@
-int i = 1;
-while (i < 10)
+int i = 0;
+while (i < 10000000000000000000000000000)
 {
-    if(i == 5)
-        break;
-    Console.WriteLine(i);
+
+    Console.Write(i);
     i++;
+    
 }
